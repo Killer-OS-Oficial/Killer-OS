@@ -1,0 +1,12 @@
+[Desktop Entry]
+Type=X-GNOME-Metatheme
+Name=killer-os-qogir-light
+Comment=An Clean Gtk+ theme based on Flat Design
+Encoding=UTF-8
+
+[X-GNOME-Metatheme]
+GtkTheme=killer-os-qogir-light
+MetacityTheme=killer-os-qogir-light
+IconTheme=killer-os-qogir
+CursorTheme=Adwaita
+ButtonLayout=menu:minimize,maximize,close

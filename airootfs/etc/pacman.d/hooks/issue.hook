@@ -1,0 +1,10 @@
+[Trigger]
+Operation = Install
+Operation = Upgrade
+Type = Package
+Target = filesystem
+
+[Action]
+Description = Add Killer-OS specifc config.
+When = PostTransaction
+Exec = /bin/sh -c "sed -i 's|Arch|Killer-OS|g' /etc/issue /usr/share/factory/etc/issue"
