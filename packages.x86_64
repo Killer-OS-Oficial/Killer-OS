@@ -23,6 +23,7 @@ archiso
 archlinux-appstream-data
 archlinux-keyring
 audacious
+avahi
 b43-fwcutter
 base
 base-devel
@@ -67,6 +68,7 @@ f2fs-tools
 ffmpeg
 ffmpegthumbnailer
 ffmpegthumbs
+file-roller
 firefox
 firefox-i18n-es-mx
 flameshot
@@ -78,11 +80,6 @@ gnome-keyring
 gnome-multi-writer
 gnu-netcat
 gotop-bin
-netctl
-nss-mdns
-openresolv
-avahi
-os-prober
 gparted
 gpm
 gptfdisk
@@ -130,9 +127,9 @@ jsoncpp
 keepassxc
 killer-os-base-skel
 killer-os-bspwm-skel
+killer-os-grub-themes
 killer-os-mirrorlist
 killer-os-sddm-themes
-killer-os-grub-themes
 killer-os-themes
 leafpad
 less
@@ -186,6 +183,7 @@ ndisc6
 neofetch
 nerd-fonts-hack
 net-tools
+netctl
 network-manager-applet
 networkmanager
 networkmanager-l2tp
@@ -199,14 +197,17 @@ nilfs-utils
 nitrogen
 nmap
 noto-fonts-emoji
+nss-mdns
 ntfs-3g
 ntp
 numlockx
 nvme-cli
 oh-my-zsh-git
 openconnect
+openresolv
 openssh
 openvpn
+os-prober
 p7zip
 paccache-hook
 pacman-contrib
@@ -290,6 +291,7 @@ tint2-git
 tlp
 tmux
 tor
+torctl
 ttf-clear-sans
 ttf-font-awesome
 ttf-roboto
@@ -308,9 +310,9 @@ usbutils
 uw-ttyp0-font
 veracrypt
 viewnior
-vivaldi
 virtualbox-guest-dkms
 virtualbox-guest-utils
+vivaldi
 vpnc
 w3m
 wget
@@ -363,4 +365,5 @@ youtube-dl
 zsh
 zsh-autosuggestions
 zsh-fast-syntax-highlighting-git
+zsh-history-substring-search
 zsh-syntax-highlighting

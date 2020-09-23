@@ -1,0 +1,29 @@
+#
+# ██ ▄█▀ ██▓ ██▓     ██▓    ▓█████  ██▀███      ▒█████    ██████ 
+# ██▄█▒ ▓██▒▓██▒    ▓██▒    ▓█   ▀ ▓██ ▒ ██▒   ▒██▒  ██▒▒██    ▒ 
+#▓███▄░ ▒██▒▒██░    ▒██░    ▒███   ▓██ ░▄█ ▒   ▒██░  ██▒░ ▓██▄   
+#▓██ █▄ ░██░▒██░    ▒██░    ▒▓█  ▄ ▒██▀▀█▄     ▒██   ██░  ▒   ██▒
+#▒██▒ █▄░██░░██████▒░██████▒░▒████▒░██▓ ▒██▒   ░ ████▓▒░▒██████▒▒
+#▒ ▒▒ ▓▒░▓  ░ ▒░▓  ░░ ▒░▓  ░░░ ▒░ ░░ ▒▓ ░▒▓░   ░ ▒░▒░▒░ ▒ ▒▓▒ ▒ ░
+#░ ░▒ ▒░ ▒ ░░ ░ ▒  ░░ ░ ▒  ░ ░ ░  ░  ░▒ ░ ▒░     ░ ▒ ▒░ ░ ░▒  ░ ░
+#░ ░░ ░  ▒ ░  ░ ░     ░ ░      ░     ░░   ░    ░ ░ ░ ▒  ░  ░  ░  
+#░  ░    ░      ░  ░    ░  ░   ░  ░   ░            ░ ░        ░  
+#                               By:Killer-Hacker-Oficial          
+#
+
+[Unit]
+Description=Killer-OS:Enrruta todo el trafico hacia la red tor
+After=network-online.target
+
+[Service]
+Type=oneshot
+ExecStart=/usr/bin/torctl chngmac
+ExecStart=/usr/bin/torctl start
+ExecStart=/usr/bin/torctl chngid
+
+ExecStop=/usr/bin/torctl stop
+ExecStop=/usr/bin/torctl rvmac
+RemainAfterExit=yes
+
+[Install]
+WantedBy=multi-user.target
