@@ -78,6 +78,11 @@ gnome-keyring
 gnome-multi-writer
 gnu-netcat
 gotop-bin
+netctl
+nss-mdns
+openresolv
+avahi
+os-prober
 gparted
 gpm
 gptfdisk
@@ -233,7 +238,7 @@ pv
 python
 python-urllib3
 python-xdg
-qgnomeplatform-git
+qgnomeplatform
 qogir-icon-theme-git
 qt5-graphicaleffects
 qt5-quickcontrols2
@@ -303,6 +308,7 @@ usbutils
 uw-ttyp0-font
 veracrypt
 viewnior
+vivaldi
 virtualbox-guest-dkms
 virtualbox-guest-utils
 vpnc
