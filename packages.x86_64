@@ -225,6 +225,7 @@ perl-file-desktopentry
 pfetch-git
 picom
 pkgfile
+polkit
 polkit-gnome
 polybar-git
 ppp
