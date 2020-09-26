@@ -93,9 +93,9 @@ gst-plugins-good
 gst-plugins-ugly
 gstreamer
 gstreamer-vaapi
+gtk2-perl
 gtk-engine-murrine
 gtk-engines
-gtk2-perl
 gucharmap
 gufw
 gvfs
@@ -143,6 +143,7 @@ libva-intel-driver
 libva-mesa-driver
 libva-vdpau-driver
 linux
+linux-atm
 linux-firmware
 linux-headers
 logrotate
@@ -151,6 +152,7 @@ lsscsi
 lvm2
 lxappearance
 lxmenu-data
+lxqt-policykit
 lxrandr
 lynx
 man-db
@@ -263,6 +265,7 @@ scrot
 sddm
 sdparm
 sg3_utils
+shadow
 simplescreenrecorder
 skippy-xd-git
 slop
@@ -346,8 +349,8 @@ xf86-video-sisusb
 xf86-video-vesa
 xf86-video-vmware
 xf86-video-voodoo
-xfce-polkit-git
 xfce4-power-manager
+xfce-polkit-git
 xfsprogs
 xl2tpd
 xorg-apps
