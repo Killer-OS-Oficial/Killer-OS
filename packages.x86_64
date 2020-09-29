@@ -131,6 +131,7 @@ killer-os-grub-themes
 killer-os-mirrorlist
 killer-os-sddm-themes
 killer-os-themes
+killer-os-keyring
 leafpad
 less
 lib32-alsa-plugins
